@@ -42,7 +42,8 @@ For the simulation at several Eb/N0:
 3. Open the simulation_workbech.m script, edit the "simulink_file" variable with the desired model and run it.
 4. Wait (it can take several hours, but depends on the execution time windows). The results will be saved into a results.mat file (expect a big file)
 5. To analyze the results, load the file into memory and execute the results/analyze_results.m script
-*6. If a second results file is loaded into memory and the results' variable name is changed into "results2", the analyze_results_both.m file can be used to compare them.
+
+*Extra step*: If a second results file is loaded into memory and the results' variable name is changed into "results2", the analyze_results_both.m file can be used to compare them.
  
 
 Shield: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
