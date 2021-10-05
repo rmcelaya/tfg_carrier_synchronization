@@ -36,7 +36,7 @@ For the simulation at a single Eb/N0:
 2. Open the desired Simulink model, modify the desired parameters (execution time window, filter parameters etc.) and run it.
 3. The BER, phase and other results are shown in the model. The BER is also exported to the workspace
 
-For the simulation at different Eb/N0:
+For the simulation at several Eb/N0:
 1. Open the generate_doppler.m file, edit the needed parameters (execution time, sampling freq, etc.) and execute it
 2. Open the desired Simulink model and modify the desired parameters (execution time windows, filter parameters etc.).
 3. Open the simulation_workbech.m script, edit the "simulink_file" variable with the desired model and run it.
