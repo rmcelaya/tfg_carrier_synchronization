@@ -1,0 +1,1 @@
+Execute create_environment.m before executing any script in this directory
